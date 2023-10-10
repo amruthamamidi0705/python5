@@ -1,0 +1,14 @@
+#program to print total and average
+
+s_no=int(input("Enter student no"))
+s_name=input("Enter student name")
+group=input("Enter group")
+sub1=int(input("Enter C marks"))
+sub2=int(input("Enter python marks"))
+sub3=int(input("Enter java marks"))
+
+total=sub1+sub2+sub3
+avg=total/3
+
+print("Total marks:",total)
+print("Average marks:",avg)
